@@ -1,16 +1,61 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <title>Portfolio | Scott Bratcher</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
+
 <body>
-    
+
+  <header id="masthead">
+    <!-- I'm not sure why "About" is bolded, but not the other two links. -->
+    <div class="container">
+      <a href="index.html" id="logo">Scott Bratcher</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="#">Scott Bratcher</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="assets/images/LedZeppelin.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="#">LedZeppelin</a>
+                </div>
+                <img class="card-img-top" src="assets/images/Tie-Dye.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <a href="https://www.etsy.com/shop/NoPebbleTossed">TieDye</a>
+                </div>
+
+            </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
+
 </html>
